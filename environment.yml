@@ -1,10 +1,8 @@
-name: rethinking
+name: rethinking_pyro
+
 channels:
-- pytorch
+  - default
+  - conda-forge
+
 dependencies:
-- jupyter
-- pandas
-- pytorch
-- seaborn
-- pip:
-  - pyro-ppl
+  - python=3.9
